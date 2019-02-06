@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include gtm.html %}
+
+    {% include header.html %}
+
+        {% include jumbotron-pages.html %}
+
+    <div class="page-content txleft">
+      <div class="container">
+        <div class="activites">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include js.html %}
+
+  </body>
+
+</html>
